@@ -9,6 +9,8 @@ gem "rails", "~> 7.0.2", ">= 7.0.2.3"
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
+gem "dotenv-rails", groups: [:development, :test]
+
 # Use postgresql as the database for Active Record
 gem "pg", "~> 1.1"
 
@@ -42,7 +44,6 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
 
-# Use Sass to process CSS
 gem "sassc-rails"
 gem "autoprefixer-rails", "10.2.5"
 gem "font-awesome-sass", "~> 6.1.1"
